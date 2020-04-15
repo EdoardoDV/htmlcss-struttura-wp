@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.yellow {
+  background-color: yellow;
+  height: 30vh;
+  width: 100vw;
+}
+
+.main {
+  clear: both;
+  height: 60vh;
+  width: 100vw;
+}
+.block {
+  display: inline-block;
+  margin-top: 10px;
+  width: 32vw;
+}
+.purple {
+  background: purple;
+  margin-bottom: 30px;
+  height: 55vh;
+}
+.pink {
+  background: pink;
+}
+.right {
+  height: 60vh;
+  float:right;
+}
+.top, .bot {
+  background: pink;
+  height: 25vh;
+}
+
+.bot {
+  margin-top: 10px;
+}
+
+.left {
+  height: 40vh;
+  float: left;
+}
+
+footer {
+  background: lightblue;
+  height: 10vh;
+  width: 100vw;
+}
